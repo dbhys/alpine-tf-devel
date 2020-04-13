@@ -1,9 +1,8 @@
 FROM alpine:3.10
 
 ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk
-ENV LOCAL_RESOURCES 2048,.5,1.0
 
-ENV BAZEL_VERSION 0.7.0
+ENV BAZEL_VERSION 0.26.1
 ENV TENSORFLOW_VERSION 1.4.0
 
 RUN apk add --no-cache python3 python3-tkinter py3-numpy py3-numpy-f2py freetype libpng libjpeg-turbo imagemagick graphviz git
